@@ -42,13 +42,13 @@ class Messages:
         "**Join Channel @lkhitech**"
         ]
      
-    RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
+    RATE_LIMIT_EXCEEDED_MESSAGE = "❗ ** သတ်မှတ်ပမာဏ ကျော်လွန်သွားပါပြီ **\n__User rate limit exceeded try after 24 hours.__"
     
-    FILE_NOT_FOUND_MESSAGE = "❗ **File/Folder not found.**\n__File id - {} Not found. Make sure it\'s exists and accessible by the logged account.__"
+    FILE_NOT_FOUND_MESSAGE = "❗ ** ဖိုင်/ဖိုဒါကို ရှာမတွေ့ပါ။ **\n__File id - {} Not found. Make sure it\'s exists and accessible by the logged account.__"
     
-    INVALID_GDRIVE_URL = "❗ **Invalid Google Drive URL**\nMake sure the Google Drive URL is in valid format."
+    INVALID_GDRIVE_URL = "❗ ** ဂူးဂဲ URL မှားယွင်းနေပါသည်။ **\nMake sure the Google Drive URL is in valid format."
     
-    COPIED_SUCCESSFULLY = "✅ **Copied successfully.**\n[{}]({}) __({})__"
+    COPIED_SUCCESSFULLY = "✅ ** ကော်ပီကူးခြင်း အောင်မြင်ပါသည်။ **\n[{}]({}) __({})__"
     
     NOT_AUTH = f"🔑 **You have not authenticated me to upload to any account.**\n__Send /{BotCommands.Authorize[0]} to authenticate.__"
     
